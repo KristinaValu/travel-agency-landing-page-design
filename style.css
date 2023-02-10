@@ -92,7 +92,7 @@ header .button-style {
 
 .hero-container {
   background-image: url(./images/hero.png);
-  background-position: right bottom;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: 790px;
   height: 631px;
