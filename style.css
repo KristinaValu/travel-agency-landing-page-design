@@ -72,6 +72,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   height: 43px;
+  padding: 8px 25px;
 }
 
 .button-style:hover {
@@ -85,4 +86,29 @@ header .button-style {
   top: 25px;
   left: 1218px;
   width: 122px;
+}
+
+/* hero section */
+
+.hero-container {
+  background-image: url(./images/hero.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 790px;
+  height: 631px;
+  margin: 20px 103px 103px 103px;
+}
+
+h1 {
+  padding-top: 160px;
+  font-size: 50px;
+  color: #ee6c4d;
+  width: 494px;
+  margin: 0px;
+}
+.hero-text {
+  font-size: 20px;
+  width: 360px;
+  margin-top: 0px;
+  margin-bottom: 24px;
 }
