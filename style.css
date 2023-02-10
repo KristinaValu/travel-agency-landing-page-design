@@ -63,12 +63,7 @@ body {
   font-weight: bold;
 }
 
-.sign-in {
-  position: absolute;
-  width: 122px;
-  height: 43px;
-  top: 25px;
-  left: 1218px;
+.button-style {
   background-color: #ee6c4d;
   color: #ffffff;
   border: none;
@@ -76,10 +71,18 @@ body {
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
+  height: 43px;
 }
 
-.sign-in:hover {
+.button-style:hover {
   background-color: #f5ef53;
   color: #293241;
   font-weight: bold;
+}
+
+header .button-style {
+  position: absolute;
+  top: 25px;
+  left: 1218px;
+  width: 122px;
 }
