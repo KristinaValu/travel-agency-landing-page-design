@@ -72,6 +72,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   height: 43px;
+  padding: 8px 25px;
 }
 
 .button-style:hover {
@@ -94,7 +95,7 @@ header .button-style {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 790px;
-  height: 631.05px;
+  height: 631px;
   margin: 20px 103px 103px 103px;
 }
 
@@ -108,9 +109,6 @@ h1 {
 .hero-text {
   font-size: 20px;
   width: 360px;
-  margin: 0px 0px 24px 0px;
-}
-
-.hero-container .button-style {
-  width: 164px;
+  margin-top: 0px;
+  margin-bottom: 24px;
 }
