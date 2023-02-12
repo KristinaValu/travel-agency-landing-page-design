@@ -123,7 +123,6 @@ h1 {
 h2 {
   text-align: center;
   color: #ffffff;
-  font-weight: bold;
   font-size: 36px;
   padding-top: 150px;
   padding-bottom: 30px;
@@ -144,7 +143,7 @@ h2 {
 .main-image {
   width: 277px;
   height: 408px;
-  border-radius: 5%;
+  border-radius: 20px;
   object-fit: cover;
   margin-bottom: 26px;
 }
