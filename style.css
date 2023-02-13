@@ -114,7 +114,7 @@ h1 {
 }
 
 /* popular destinations section */
-.popular-destinations {
+#popular-destinations {
   background-image: url(./images/destinations_background.png);
   background-repeat: no-repeat;
   height: 1053px;
@@ -159,4 +159,44 @@ figcaption {
 .text-24 {
   font-size: 24px;
   font-weight: bold;
+}
+
+/*About us section*/
+
+#about-us {
+  width: 1240px;
+  height: 679px;
+  margin-left: 116px;
+  margin-right: 84px;
+}
+
+#about-us h2 {
+  color: #293241;
+  margin: 0 50px;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: row;
+}
+.about-us-text {
+  margin-top: 30px;
+  font-size: 24px;
+}
+.about-us-text-1 {
+  width: 628px;
+}
+.about-us-text-2 {
+  width: 664px;
+}
+.about-us-text-3 {
+  width: 579px;
+}
+span {
+  color: rgba(238, 108, 77, 1);
+  font-weight: bold;
+}
+.about-us-image {
+  width: 593px;
+  height: 575px;
 }
