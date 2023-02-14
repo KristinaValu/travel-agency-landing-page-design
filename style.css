@@ -17,6 +17,11 @@ body {
   margin: 0 auto;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+/* Main header */
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -44,8 +49,6 @@ body {
 }
 
 .navigation-itiems {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   padding: 0;
   gap: 64px;
@@ -130,8 +133,6 @@ h2 {
 }
 
 .popular-destinations-img {
-  display: flex;
-  flex-direction: row;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -159,4 +160,32 @@ figcaption {
 .text-24 {
   font-size: 24px;
   font-weight: bold;
+}
+
+/*About us section*/
+
+.about-us {
+  width: 1240px;
+  height: 679px;
+  margin-left: 116px;
+  margin-right: 84px;
+}
+
+#about-us h2 {
+  color: #293241;
+  margin: 0 50px;
+}
+
+.about-us-text {
+  margin-top: 30px;
+  font-size: 24px;
+  width: 664px;
+}
+.orange-text {
+  color: #ee6c4d;
+  font-weight: bold;
+}
+.about-us-image {
+  width: 593px;
+  height: 575px;
 }
