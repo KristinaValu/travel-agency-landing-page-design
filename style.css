@@ -214,13 +214,14 @@ figcaption {
 .subscribe-image {
   height: 397px;
 }
+
 .subscribe .email {
   width: 358px;
   height: 48px;
-  height: 43px;
   padding: 23px;
   border-radius: 26px;
   text-align: left;
   border: none;
   margin-right: 18px;
+  outline: none;
 }
