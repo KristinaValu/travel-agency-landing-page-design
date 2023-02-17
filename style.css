@@ -169,6 +169,7 @@ figcaption {
   height: 679px;
   margin-left: 116px;
   margin-right: 84px;
+  margin-bottom: 357px;
 }
 
 #about-us h2 {
@@ -188,4 +189,39 @@ figcaption {
 .about-us-image {
   width: 593px;
   height: 575px;
+}
+
+/*Subscribe section*/
+.subscribe {
+  background: #293241;
+  margin-left: 108px;
+  margin-right: 92px;
+  width: 1240px;
+  height: 397px;
+  border-radius: 50px;
+}
+.subscribe h2 {
+  text-align: left;
+  padding-top: 81px;
+  padding-bottom: 10px;
+  font-size: 36px;
+}
+
+.subscribe-text {
+  margin-left: 106px;
+  color: #ffffff;
+}
+.subscribe-image {
+  height: 397px;
+}
+
+.subscribe .email {
+  width: 358px;
+  height: 48px;
+  padding: 23px;
+  border-radius: 26px;
+  text-align: left;
+  border: none;
+  margin-right: 18px;
+  outline: none;
 }
