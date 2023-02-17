@@ -196,6 +196,7 @@ figcaption {
   background: #293241;
   margin-left: 108px;
   margin-right: 92px;
+  margin-bottom: 119px;
   width: 1240px;
   height: 397px;
   border-radius: 50px;
@@ -224,4 +225,47 @@ figcaption {
   border: none;
   margin-right: 18px;
   outline: none;
+}
+
+/* Footer */
+
+.page-footer {
+  background: url(./images/footer_background.png);
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 538px;
+  color: #ffffff;
+}
+.page-footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding: 151px;
+}
+.footer-logo {
+  filter: brightness(0) invert(1);
+  padding-bottom: 110px;
+}
+.icons {
+  padding-inline-start: 0px;
+}
+.icons li {
+  display: inline;
+  list-style: none;
+  padding-right: 10px;
+}
+
+.footer-nav-list {
+  padding: 0;
+}
+
+.footer-nav-list li {
+  list-style: none;
+  line-height: 39px;
+  cursor: pointer;
+}
+
+footer a {
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
 }
