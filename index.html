@@ -128,15 +128,20 @@
         <div class="subscribe-text">
           <h2>Subscribe our newsletter</h2>
           <p>Receive latest news, update and many other things every week.</p>
-          <form action="subscribe-form">
+          <form>
             <input
+              id="input-email"
               class="email"
               type="email"
-              id="email"
               placeholder="Your email here"
               name="email"
             />
-            <input class="button-style" type="submit" value="Join Now" />
+            <input
+              id="suscribe-button"
+              class="button-style"
+              type="submit"
+              value="Join Now"
+            />
           </form>
         </div>
         <img class="subscribe-image" src="images/tourists.png" alt="" />
@@ -204,5 +209,6 @@
         </div>
       </div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
