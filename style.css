@@ -94,7 +94,7 @@ header .button-style {
 /* hero section */
 
 .hero-container {
-  background-image: url(./images/hero.png);
+  background-image: url(./images/hero-min.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 790px;
@@ -118,7 +118,7 @@ h1 {
 
 /* popular destinations section */
 .popular-destinations {
-  background-image: url(./images/destinations_background.png);
+  background-image: url(./images/destinations_background-min.png);
   background-repeat: no-repeat;
   height: 1053px;
 }
@@ -230,7 +230,7 @@ figcaption {
 /* Footer */
 
 .page-footer {
-  background: url(./images/footer_background.png);
+  background: url(./images/footer_background-min.png);
   background-repeat: no-repeat;
   width: 1440px;
   height: 538px;
