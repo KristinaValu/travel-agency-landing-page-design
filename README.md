@@ -4,10 +4,11 @@ This web page consists of basic HTML Layout Elements: header, several sections a
 Web page has the following functionalities:
 
 - hover states;
-- clickable links;
-- clickable buttons,
-- form;
-- clickable links to social media.
+- clickable links in the header section: linking to corresponding section;
+- buttons;
+- form with validation;
+- clickable links to social media;
+- clickable links to an email adress and telephone number.
 
 This project was built with:
 
